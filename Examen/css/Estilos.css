@@ -1,0 +1,220 @@
+*{
+	margin:0px;
+	padding:2px;
+	
+}
+
+body{
+	background:rgb(0,0,0);
+}
+header{
+	height:50px;
+	background:rgb(0,0,0);
+	color:rgb(255,255,255);
+}
+
+nav li{
+	display:inline-block;
+	font-size:15px;
+}
+main{
+	height:400px;
+	background:rgb(10,0,0);
+}
+section{
+	height:1000px; 
+	background:rgb(0,0,0);
+	color:rgb(255,255,255);
+}
+.imagenes{
+	background:rgb(220,223,27);
+	float:left;
+	width: 550px;
+	height: 385px;
+}
+.imagenes img {
+	float:left;
+	width: 150px;
+	height: 140px;
+	margin-left:10px;
+}
+.Imagenes2{
+	background:rgb(209,40,40);
+	float:left;
+	width: 550px;
+	height: 385px;
+}
+.Imagenes2 img {
+	float:left;
+	width: 150px;
+	height: 140px;
+	margin-left:10px;
+}
+.imagenes3{
+	background:rgb(43,209,66);
+	float:left;
+	width: 550px;
+	height: 385px;
+}
+.imagenes3 img {
+	float:left;
+	width: 150px;
+	height: 140px;
+	margin-left:10px;
+}
+.Imagenes4{
+	background:rgb(209,43,186);
+	float:left;
+	width: 550px;
+	height: 385px;
+}
+.Imagenes4 img {
+	float:left;
+	width: 150px;
+	height: 140px;
+	margin-left:10px;
+}
+#Imagen1{
+	background: rgb(255,255,250);
+	width: 170px;
+	height: 150px;
+	padding: 5px;
+	margin: 10px;
+	margin-left:50px;
+	float: left;
+}
+#Imagen2{
+	background: rgb(255,255,250);
+	width: 170px;
+	height: 150px;
+	padding: 5px;
+	margin: 10px;
+	margin-left:50px;
+	float: left;
+}
+#Imagen3{
+	background: rgb(255,255,250);
+	width: 170px;
+	height: 150px;
+	padding: 5px;
+	margin: 10px;
+	margin-left:50px;
+	float: left;
+}
+#Imagen4{
+	background: rgb(255,255,250);
+	width: 170px;
+	height: 150px;
+	padding: 5px;
+	margin: 10px;
+	margin-left:50px;
+	float: left;
+}
+#Imagen5{
+	background: rgb(255,255,250);
+	width: 170px;
+	height: 150px;
+	padding: 5px;
+	margin: 10px;
+	margin-left:50px;
+	float: left;
+}
+#Imagen6{
+	background: rgb(255,255,250);
+	width: 170px;
+	height: 150px;
+	padding: 5px;
+	margin: 10px;
+	margin-left:50px;
+	float: left;
+}
+#Imagen7{
+	background: rgb(255,255,250);
+	width: 170px;
+	height: 150px;
+	padding: 5px;
+	margin: 10px;
+	margin-left:50px;
+	float: left;
+}
+#Imagen8{
+	background: rgb(255,255,250);
+	width: 170px;
+	height: 150px;
+	padding: 5px;
+	margin: 10px;
+	margin-left:50px;
+	float: left;
+}
+#Imagen9{
+	background: rgb(255,255,250);
+	width: 170px;
+	height: 150px;
+	padding: 5px;
+	margin: 10px;
+	margin-left:50px;
+	float: left;
+}
+#Imagen10{
+	background: rgb(255,255,250);
+	width: 170px;
+	height: 150px;
+	padding: 5px;
+	margin: 10px;
+	margin-left:50px;
+	float: left;
+}
+#Imagen11{
+	background: rgb(255,255,250);
+	width: 170px;
+	height: 150px;
+	padding: 5px;
+	margin: 10px;
+	margin-left:50px;
+	float: left;
+}
+#Imagen12{
+	background: rgb(255,255,250);
+	width: 170px;
+	height: 150px;
+	padding: 5px;
+	margin: 10px;
+	margin-left:50px;
+	float: left;
+}
+#Imagen13{
+	background: rgb(255,255,250);
+	width: 170px;
+	height: 150px;
+	padding: 5px;
+	margin: 10px;
+	margin-left:50px;
+	float: left;
+}
+#Imagen14{
+	background: rgb(255,255,250);
+	width: 170px;
+	height: 150px;
+	padding: 5px;
+	margin: 10px;
+	margin-left:50px;
+	float: left;
+}
+#Imagen15{
+	background: rgb(255,255,250);
+	width: 170px;
+	height: 150px;
+	padding: 5px;
+	margin: 10px;
+	margin-left:50px;
+	float: left;
+}
+#Imagen16{
+	background: rgb(255,255,250);
+	width: 170px;
+	height: 150px;
+	padding: 5px;
+	margin: 10px;
+	margin-left:50px;
+	float: left;
+}

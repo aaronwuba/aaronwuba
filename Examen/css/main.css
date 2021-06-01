@@ -1,0 +1,318 @@
+h1,h2,h3,h4,h5, button, .amiibo-name{
+    font-family: 'Bitter', serif;
+
+}
+#navbar{
+    z-index: 1;
+}
+
+#ribbon{
+    background-color: rgb(219, 26, 26);
+    background-image: repeating-linear-gradient(45deg, transparent, transparent 25px, rgba(131, 21, 21, 0.5) 25px, rgba(131, 21, 21, 0.5) 40px);
+}
+#ribbon::after{
+    content: '';
+    background-color: transparent;
+    display: block;
+    height: 20px;
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+    left: auto;
+    margin-top: -40px;
+}
+#separator-ribbon{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+}
+#separator-ribbon .content{
+    width: 150%;
+    height: 150px;
+    margin-left: -25%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+#birthday{
+    background-color: rgb(219, 26, 26);
+    position: relative;
+    margin-top: -20px;
+    z-index: 10;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+
+#birthday img{
+    position: relative;
+    margin-top: -30px;
+}
+
+#games{
+    background: rgb(255,255,255);
+    background: url(../img/bg-02.png),  linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(99,196,255,1) 57%);
+    background-repeat: repeat-x;
+    background-size: 75%;
+    margin-top: -20px;
+}
+
+.card-border{
+    border: solid 10px white;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all ease-out 0.2s;
+}
+.card-border:hover{
+    transform: scale(1.05);
+}
+
+.text-shadow{
+    text-shadow: 0 3px 3px rgba(0,0,0,0.6);
+}
+#separator-amiibos{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+}
+#separator-amiibos .content{
+    background: url(../img/bg-03.png);
+    width: 110%;
+    height: 100px;
+    margin-left: -5%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+#separator-amiibos-footer{
+    height: 20vw;
+}
+
+
+#amiibos{
+    background: url(../img/bg-01.png),url(../img/bg-03.png);
+    background-repeat: no-repeat, repeat;
+    background-position: bottom center, center center;
+    background-size: 100%, auto;
+}
+.amiibo{
+    cursor: pointer;
+    transition: all ease-out 0.2s;
+}
+.amiibo:hover{
+    transform: scale(1.05);
+}
+
+.amiibo-name{
+    background-color: rgba(0,0,0,0.4);
+    color: white;
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 15px;
+}
+
+#play{   
+    background: url(../img/bg-04.png);
+    background-color: rgb(255, 255, 219);
+    background-size: 40px 40px;
+}
+
+#footer{
+    background: url(../img/bg-04.png);
+    background-color: rgb(30, 14, 24);
+    background-size: 50px 50px;
+}
+
+.imagenes{
+	background:rgb(220,223,27);
+	float:left;
+	width: 550px;
+	height: 385px;
+}
+.imagenes img {
+	float:left;
+	width: 150px;
+	height: 140px;
+	margin-left:10px;
+}
+.Imagenes2{
+	background:rgb(209,40,40);
+	float:left;
+	width: 550px;
+	height: 385px;
+}
+.Imagenes2 img {
+	float:left;
+	width: 150px;
+	height: 140px;
+	margin-left:10px;
+}
+.imagenes3{
+	background:rgb(43,209,66);
+	float:left;
+	width: 550px;
+	height: 385px;
+}
+.imagenes3 img {
+	float:left;
+	width: 150px;
+	height: 140px;
+	margin-left:10px;
+}
+.Imagenes4{
+	background:rgb(209,43,186);
+	float:left;
+	width: 550px;
+	height: 385px;
+}
+.Imagenes4 img {
+	float:left;
+	width: 150px;
+	height: 140px;
+	margin-left:10px;
+}
+#Imagen1{
+	background: rgb(255,255,250);
+	width: 170px;
+	height: 150px;
+	padding: 5px;
+	margin: 10px;
+	margin-left:50px;
+	float: left;
+}
+#Imagen2{
+	background: rgb(255,255,250);
+	width: 170px;
+	height: 150px;
+	padding: 5px;
+	margin: 10px;
+	margin-left:50px;
+	float: left;
+}
+#Imagen3{
+	background: rgb(255,255,250);
+	width: 170px;
+	height: 150px;
+	padding: 5px;
+	margin: 10px;
+	margin-left:50px;
+	float: left;
+}
+#Imagen4{
+	background: rgb(255,255,250);
+	width: 170px;
+	height: 150px;
+	padding: 5px;
+	margin: 10px;
+	margin-left:50px;
+	float: left;
+}
+#Imagen5{
+	background: rgb(255,255,250);
+	width: 170px;
+	height: 150px;
+	padding: 5px;
+	margin: 10px;
+	margin-left:50px;
+	float: left;
+}
+#Imagen6{
+	background: rgb(255,255,250);
+	width: 170px;
+	height: 150px;
+	padding: 5px;
+	margin: 10px;
+	margin-left:50px;
+	float: left;
+}
+#Imagen7{
+	background: rgb(255,255,250);
+	width: 170px;
+	height: 150px;
+	padding: 5px;
+	margin: 10px;
+	margin-left:50px;
+	float: left;
+}
+#Imagen8{
+	background: rgb(255,255,250);
+	width: 170px;
+	height: 150px;
+	padding: 5px;
+	margin: 10px;
+	margin-left:50px;
+	float: left;
+}
+#Imagen9{
+	background: rgb(255,255,250);
+	width: 170px;
+	height: 150px;
+	padding: 5px;
+	margin: 10px;
+	margin-left:50px;
+	float: left;
+}
+#Imagen10{
+	background: rgb(255,255,250);
+	width: 170px;
+	height: 150px;
+	padding: 5px;
+	margin: 10px;
+	margin-left:50px;
+	float: left;
+}
+#Imagen11{
+	background: rgb(255,255,250);
+	width: 170px;
+	height: 150px;
+	padding: 5px;
+	margin: 10px;
+	margin-left:50px;
+	float: left;
+}
+#Imagen12{
+	background: rgb(255,255,250);
+	width: 170px;
+	height: 150px;
+	padding: 5px;
+	margin: 10px;
+	margin-left:50px;
+	float: left;
+}
+#Imagen13{
+	background: rgb(255,255,250);
+	width: 170px;
+	height: 150px;
+	padding: 5px;
+	margin: 10px;
+	margin-left:50px;
+	float: left;
+}
+#Imagen14{
+	background: rgb(255,255,250);
+	width: 170px;
+	height: 150px;
+	padding: 5px;
+	margin: 10px;
+	margin-left:50px;
+	float: left;
+}
+#Imagen15{
+	background: rgb(255,255,250);
+	width: 170px;
+	height: 150px;
+	padding: 5px;
+	margin: 10px;
+	margin-left:50px;
+	float: left;
+}
+#Imagen16{
+	background: rgb(255,255,250);
+	width: 170px;
+	height: 150px;
+	padding: 5px;
+	margin: 10px;
+	margin-left:50px;
+	float: left;
+}
